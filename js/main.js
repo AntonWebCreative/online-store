@@ -39,6 +39,8 @@ $(".js-range-slider").ionRangeSlider({
     min: 100000,
     max: 500000,
     grid: false,
+    from: 150000,
+    to: 275000,
 });
 
 

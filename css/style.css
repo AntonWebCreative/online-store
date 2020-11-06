@@ -859,6 +859,7 @@ button.catalog__filter-btngrid{
 }
 .irs--flat{
     width: 100%;
+    margin-top: -15px;
 }
 .irs--flat .irs-min, .irs--flat .irs-max {
     top: 60px;
@@ -870,5 +871,23 @@ button.catalog__filter-btngrid{
     font-family: 'Barlow', sans-serif;
     text-shadow: none;
     background-color: transparent;
-    border-radius: 0px;
+    border-radius: 0;
+    visibility: visible !important;
+    padding-left: 27px;
+}
+.irs-min::before,
+.irs-max::before{
+    padding-right: 12px;
+    position: absolute;
+    font-size: 14px;
+    line-height: 17px;
+    text-decoration: none;
+    color: #c4c4c4;
+    left: 0;    
+}
+.irs-min::before{
+    content: 'от';
+}
+.irs-max::before{
+    content: 'до';
 }

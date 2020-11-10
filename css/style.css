@@ -711,8 +711,12 @@ body{
 button.catalog__filter-btn button + button{
     margin-left: 10px;
 }
+.select-item{
+    
+}
 button.catalog__filter-btngrid{
-
+    width: 26px;
+    height: 21px;
 }
 .catalog__filter-btnline{
 
